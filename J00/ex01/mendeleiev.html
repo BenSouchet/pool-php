@@ -1,0 +1,609 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- mendeleiev.html                                    :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: bsouchet <bsouchet@student.42.fr>          +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2017/02/07 21:05:10 by bsouchet          #+#    #+#            -->
+<!-- Updated: 2017/02/07 22:14:05 by bsouchet         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mendeleïev</title>
+		<meta name="Author" content="Benjamin Souchet" />
+		<meta name="Description" content="Exercice 01 de la journée 0 de la piscine PHP @ 42" />
+		<meta name="Language" content="fr" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style>
+			body {background-color: white; font-family: Tahoma, Verdana, Helvetica, Arial; margin: 0; padding: 0;}
+			header {padding: 35px 0 35px;}
+			h1 {font-size: 3vw; color: gray; font-family: Tahoma, Verdana, Helvetica, Arial;}
+			p {font-size: 1.3vw; color: grey; font-family: Helvetica, Verdana, Tahoma, Arial;}
+			#content {width: 90%; color: black; margin: 0 auto;}
+			table {border-collapse : separate; width: 100%; margin-bottom: 65px;}
+			td {width: 3%; position: relative;}
+			td:before {content: ""; display: block; padding-top: 100%;}
+			td .inside {position: absolute; top: 0; left: 0; bottom: 0; right: 0;}
+			.non-metaux {background-color: #a3c7d2;}
+			.gaz-nobles {background-color: #eada24;}
+			.metaux-alcalins {background-color: #ebbfd8;}
+			.metaux-alcalino-terreux {background-color: #fbc9e5;}
+			.metalloides {background-color: #eab37f;}
+			.halogenes {background-color: #f0b323;}
+			.metaux-pauvres {background-color: #b5b9ba;}
+			.metaux-transition {background-color: #95dffa;}
+			.lanthanides {background-color: #bfeaec;}
+			.actinides {background-color: #bdee69;}
+			.special1 {position: absolute; top: 17%; left: 17%; bottom: 0; right: 0; width: 66%;height : 66%; background-color: #bfeaec;}
+			.special2 {position: absolute; top: 17%; left: 17%; bottom: 0; right: 0; width: 66%;height : 66%; background-color: #bdee69;}
+			footer {float: center; padding: 0 15px; width: 87%; margin: 0 auto; border-top: 1px solid darkgrey;}
+			footer p {text-align: center;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<center>
+				<h1>Tableau périodique des élements</h1>
+			</center>
+		</header>
+		<div id="content">
+			<center>
+				<table>
+					<tr>
+						<td class="non-metaux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="gaz-nobles" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="metaux-alcalins" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-alcalino-terreux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="metalloides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="non-metaux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="non-metaux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="non-metaux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="halogenes" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="gaz-nobles" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="metaux-alcalins" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-alcalino-terreux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metalloides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="non-metaux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="non-metaux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="halogenes" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="gaz-nobles" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="metaux-alcalins" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-alcalino-terreux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metalloides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metalloides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="non-metaux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="halogenes" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="gaz-nobles" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="metaux-alcalins" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-alcalino-terreux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metalloides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metalloides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="halogenes" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="gaz-nobles" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="metaux-alcalins" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-alcalino-terreux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td>
+							<div class="special1">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metalloides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="halogenes" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="gaz-nobles" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="metaux-alcalins" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-alcalino-terreux" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td>
+							<div class="special2">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-transition" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="metaux-pauvres" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="halogenes" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="gaz-nobles" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="lanthanides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+						<td class="actinides" contenteditable="true">
+							<div class="inside">
+							</div>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<footer>
+			<p>© Benjamin Souchet 2017 - Piscine PHP</p>
+		</footer>
+	</body>
+</html>
