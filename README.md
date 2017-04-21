@@ -30,50 +30,50 @@ This session consists of ten days & two rushs, I have done seven days & one rush
 </thead>
 <tbody>
 <tr>
-<td valign="top" align="center" height="30px">[Day 00](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D00)</td>
-<td valign="top" height="30px">[HTML &amp; CSS](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D00)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D00" title="Show this day !">Day 00</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D00" title="Show this day !">HTML &amp; CSS</a></td>
 <td valign="top" align="center" height="30px">5 / 6</td>
 <td valign="top" align="center" height="30px">90 / 100</td>
 </tr>
 <tr>
-<td valign="top" align="center" height="30px">[Day 01](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D01)</td>
-<td valign="top" height="30px">[INTRODUCTION TO PHP](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D01)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D01" title="Show this day !">Day 01</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D01" title="Show this day !">INTRODUCTION TO PHP</a></td>
 <td valign="top" align="center" height="30px">13 / 14</td>
 <td valign="top" align="center" height="30px">87 / 100</td>
 </tr>
 <tr>
-<td valign="top" align="center" height="30px">[Day 02](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D02)</td>
-<td valign="top" height="30px">[REGEX, VARIABLES, CURL &amp; EVAL](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D02)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D02" title="Show this day !">Day 02</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D02" title="Show this day !">REGEX, VARIABLES, CURL &amp; EVAL</a></td>
 <td valign="top" align="center" height="30px">6 / 7</td>
 <td valign="top" align="center" height="30px">71 / 100</td>
 </tr>
 <tr>
-<td valign="top" align="center" height="30px">[Day 03](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D03)</td>
-<td valign="top" height="30px">[GET, PHP HEADERS, COOKIES &amp; INTRODUCTION TO SESSION](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D03)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D03" title="Show this day !">Day 03</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D03" title="Show this day !">GET, PHP HEADERS, COOKIES &amp; INTRODUCTION TO SESSION</a></td>
 <td valign="top" align="center" height="30px">7 / 7</td>
 <td valign="top" align="center" height="30px">100 / 100</td>
 </tr>
 <tr>
-<td valign="top" align="center" height="30px">[Day 04](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D04)</td>
-<td valign="top" height="30px">[SERVER/CLIENT SIDE, SESSION, POST, GET, FORM, SIGN-IN/LOG-IN](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D04)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D04" title="Show this day !">Day 04</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D04" title="Show this day !">SERVER/CLIENT SIDE, SESSION, POST, GET, FORM, SIGN-IN/LOG-IN</a></td>
 <td valign="top" align="center" height="30px">6 / 6</td>
 <td valign="top" align="center" height="30px">96 / 100</td>
 </tr>
 <tr>
-<td valign="top" align="center" height="30px">[Day 05](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D05)</td>
-<td valign="top" height="30px">[THOROUGH INTRODUCTION TO MYSQL](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D05)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D05" title="Show this day !">Day 05</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D05" title="Show this day !">THOROUGH INTRODUCTION TO MYSQL</a></td>
 <td valign="top" align="center" height="30px">22 / 22</td>
 <td valign="top" align="center" height="30px">95 / 100</td>
 </tr>
 <tr>
-<td valign="top" align="center" height="30px">[Day 07](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D07)</td>
-<td valign="top" height="30px">[OBJECT ORIENTED PROGRAMMING](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D07)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D07" title="Show this day !">Day 07</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/DAYS/D07" title="Show this day !">OBJECT ORIENTED PROGRAMMING</a></td>
 <td valign="top" align="center" height="30px">5 / 6</td>
 <td valign="top" align="center" height="30px">75 / 100</td>
 </tr>
 <tr>
-<td valign="top" align="center" height="30px">[Rush 00](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/RUSH/Rush00)</td>
-<td valign="top" height="30px">[CREATION OF AN E-SHOP WEBSITE](https://github.com/BenjaminSouchet/Pool_PHP/tree/master/RUSH/Rush00)</td>
+<td valign="top" align="center" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/RUSH/Rush00" title="Show that rush !">Rush 00</a></td>
+<td valign="top" height="30px"><a href="https://github.com/BenjaminSouchet/Pool_PHP/tree/master/RUSH/Rush00" title="Show this day !">CREATION OF AN E-SHOP WEBSITE</a></td>
 <td valign="top" align="center" height="30px">1 / 1</td>
 <td valign="top" align="center" height="30px">119 / 119</td>
 </tr>
