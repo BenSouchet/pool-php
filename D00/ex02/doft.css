@@ -1,0 +1,106 @@
+* { margin: 0; padding: 0; position: relative; }
+.clear { clear: both; }
+
+html { width: 100%; }
+body { background-color: #505050; font-family: Verdana, Helvetica, Arial; width: 1510px; margin: 0 auto; padding: 18px 0px 0px 0px; }
+
+p {
+	font-size: 16px;
+	color: black;
+}
+
+header
+{
+	background-color: #909090;
+	padding: 10px;
+	width: 1400px;
+	height: 117px;
+	margin: 0px auto 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+	-moz-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+	box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+}
+
+header img { float: left; }
+#header-right { float: right; height: 100%; }
+#header-buttons { float: left; width: 20px; height: 100%; }
+#header-mglass { position: absolute; right: 20px; }
+
+#close { position: absolute; bottom: 0px; }
+#content { width: 1360px; margin: 0 auto; }
+
+#left-panel, #right-panel, #center-panel
+{
+	width: 120px;
+	background-color: #909090;
+	border-radius: 10px;
+	-webkit-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+	-moz-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+	box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+	padding: 10px;
+	float: left;
+}
+
+#left-panel { padding: 14px 10px; }
+#right-panel { padding: 10px; }
+#left-panel img, #right-panel img
+{
+	width: 70px;
+	border: 5px solid rgba(255, 0, 0, 0);
+	border-radius: 5px;
+}
+
+.actived { border: 5px solid rgba(255, 0, 0, 1.0)!important; }
+
+#center-panel { width: 1000px; margin: 0 30px; padding: 10px 10px 7px;}
+#right-panel { height: 405px; }
+
+.edit-margin-top { margin-top: -3px; }
+
+#tiled-brick
+{
+	height: 70px;
+	width: 100%;
+	background: #505050 url("./ressources/brick.jpg") repeat top left;
+}
+
+#pop-up
+{
+	position: absolute;
+	background-color: #88ff89;
+	width: 500px;
+	height: 150px;
+	padding: 10px;
+	float: left;
+	margin-top: -76px;
+	border-radius: 10px;
+	-webkit-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+	-moz-box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+	box-shadow: 8px 8px 13px 0px rgba(0,0,0,0.80);
+}
+
+.big-text { font-size : 34px; font-family : 'palatino linotype', 'book antiqua', Palatino, serif; }
+.orange-shadow { text-shadow: 5px 5px 5px #FF3939; }
+
+#end
+{
+	border-radius : 0px;
+	box-shadow : 0px 0px 0px white;
+	height : 16px;
+	margin-left: 2px;
+	width: 378px;
+}
+
+#button
+{
+	margin-left: 3px;
+	border : 0.5px solid rgba(166, 166, 166, 1.0);
+	border-radius: 2px;
+	margin-bottom: 10px;
+	background-color: rgb(226,226,226);
+	font-family: Arial;
+	font-size : 14px;
+	height : 20px;
+	width : 80px;
+}

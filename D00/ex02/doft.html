@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Day of the 42</title>
+		<meta name="Author" content="Benjamin Souchet" />
+		<meta name="Description" content="Exercice 02 de la journée 00 de la piscine PHP @ 42" />
+		<meta name="Language" content="fr" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="./doft.css">
+	</head>
+	<body>
+		<header>
+			<a href="./doft.html"><img src="./ressources/day_of_the_42.png" alt="Day of the 42" title="Homepage" height="87%" /></a>
+			<div id="header-right">
+				<div id="header-mglass">
+					<a href="./doft.html"><img src="./ressources/loupe.png" alt="Search" title="Search" /></a>
+				</div>
+				<div id="header-buttons">
+					<div id="refresh-icon">
+						<a href="http://disney.fr/"><img src="./ressources/reload.png" alt="Recommencer au début" title="Recommencer au début" width="100%" /></a>
+					</div>
+					<div id="close">
+						<a href="https://www.relaischateaux.com/"><img src="./ressources/close.gif" alt="Déconnecter" title="Déconnecter" width="100%" /></a>
+					</div>
+				</div>
+			</div>
+			<br class="clear" />
+		</header>
+		<div id="content">
+			<div id="left-panel">
+				<center>
+					<img src="./ressources/arrow.png" alt="Avancer" title="Avancer" />
+					<img src="./ressources/main.png" alt="Prendre" title="Prendre" />
+					<img src="./ressources/oeil.png" alt="Regarder" title="Regarder" class="actived"/>
+					<img src="./ressources/outil.png" alt="Utiliser" title="Utiliser" />
+					<img src="./ressources/chat-icon.png" alt="Parler" title="Parler" />
+				</center>
+			</div>
+			<div id="center-panel">
+				<img src="./ressources/cluster.jpg" alt="Image Cluster" width="100%" height="100%" usemap="#map1"/>
+				<map name="map1">
+					<area href="http://www.ikea.com" shape="rect" coords="300,310,435,1000" title="Acheter cette Chaise sur Ikea.com">
+					<area href="http://www.apple.com" shape="rect" coords="785,300,980,480" title="Acheter un iMac sur Apple.com">
+				</map>
+			</div>
+			<div id="right-panel">
+				<center>
+					<img src="./ressources/book.png" alt="Book" title="Book" />
+					<img src="./ressources/towel.png" alt="Towel" title="Towel" class="edit-margin-top" />
+					<div id="tiled-brick" class="edit-margin-top" title="Brick" ></div>
+				</center>
+			</div>
+			<br class="clear" />
+		</div>
+		<div id="pop-up">
+			<p>Vous <span class="big-text">entrez</span> alors dans une grande piece remplie d'<span class="orange-shadow">ordinateurs</span>...<br /><i>- Bonjour, vous êtes nouveau ici ?</i></p>
+			<input id="end" type="text"/>
+			<button type="submit" id="button">Repondre</button>
+		</div>
+	</body>
+</html>

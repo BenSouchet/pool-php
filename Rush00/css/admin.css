@@ -1,0 +1,264 @@
+::selection {
+ 	color: #fff;
+ 	text-shadow: none;
+ 	background: #444;
+}
+
+::-moz-selection {
+ 	color: #fff;
+ 	text-shadow: none;
+ 	background: #444;
+}
+
+#container,
+#container1,
+#container2,
+#container3,
+#container4,
+#container5 {
+	position: inherit;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#container form,
+#container1 form,
+#container2 form,
+#container3 form,
+#container4 form,
+#container5 form {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#container label,
+#container1 label,
+#container2 label,
+#container3 label,
+#container4 label,
+#container5 label {
+	color: #555;
+	display: inline-block;
+	margin-left: 18px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+p a {
+	font-size: 11px;
+	color: #aaa;
+	float: right;
+	margin-top: -13px;
+	margin-right: 20px;
+}
+
+p a:hover {
+	color: #555;
+}
+
+#container input,
+#container1 input,
+#container2 input,
+#container3 input,
+#container4 input,
+#container5 input,
+select {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	outline: none;
+}
+
+#container input[type=name],
+#container1 input[type=name],
+#container2 input[type=name],
+#container3 input[type=name],
+#container4 input[type=name],
+#container5 input[type=name],
+#container input[type=password],
+#container1 input[type=password],
+#container2 input[type=password],
+#container3 input[type=password],
+#container4 input[type=password],
+#container5 input[type=password],
+select {
+	color: #777;
+	padding-left: 10px;
+	margin: 10px;
+	margin-top: 12px;
+	margin-left: 18px;
+	margin-right: 20px;
+	width: 200px;
+	height: 35px;
+	border: 1px solid #c7d0d2;
+	border-radius: 2px;
+	padding: 0px 12px;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+}
+
+#container input[type=name]:hover,
+#container1 input[type=name]:hover,
+#container2 input[type=name]:hover,
+#container3 input[type=name]:hover,
+#container4 input[type=name]:hover,
+#container5 input[type=name]:hover,
+#container input[type=password]:hover,
+#container1 input[type=password]:hover,
+#container2 input[type=password]:hover,
+#container3 input[type=password]:hover,
+#container4 input[type=password]:hover,
+#container5 input[type=password]:hover,
+select:hover {
+	border: 1px solid #b6bfc0;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+}
+
+#container input[type=name]:focus,
+#container1 input[type=name]:focus,
+#container2 input[type=name]:focus,
+#container3 input[type=name]:focus,
+#container4 input[type=name]:focus,
+#container5 input[type=name]:focus,
+#container input[type=password]:focus,
+#container1 input[type=password]:focus,
+#container2 input[type=password]:focus,
+#container3 input[type=password]:focus,
+#container4 input[type=password]:focus,
+#container5 input[type=password]:focus,
+select:focus {
+	border: 1px solid #a8c9e4;
+	box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+
+#lower {
+	background: #ecf2f5;
+	width: 100%;
+	height: 69px;
+	margin-top: 20px;
+	box-shadow: inset 0 1px 1px #fff;
+	border-top: 1px solid #ccc;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#container input[type=checkbox],
+#container1 input[type=checkbox],
+#container2 input[type=checkbox],
+#container3 input[type=checkbox],
+#container4 input[type=checkbox],
+#container5 input[type=checkbox] {
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.check {
+	margin-left: 3px!important;
+	font-size: 11px!important;
+	color: #444!important;
+	text-shadow: 0 1px 0 #fff!important;
+}
+
+#container input[type=submit],
+#container1 input[type=submit],
+#container2 input[type=submit],
+#container3 input[type=submit],
+#container4 input[type=submit],
+#container5 input[type=submit] {
+	float: right;
+	margin-right: 20px;
+	margin-top: 11px;
+	width: 180px;
+	height: 38px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
+	background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+	background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
+	border-radius: 5px;
+	border: 1px solid #66add6;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+	cursor: pointer;
+}
+
+#container3 input[type=submit]
+{
+	width: 200px;
+}
+
+#container4 input[type=submit]
+{
+	width: 540px;
+}
+
+#container5 input[type=submit]
+{
+	width: 550px;
+}
+
+#container1 input[type=submit]
+{
+	width: 550px;
+}
+
+#container input[type=submit]:hover,
+#container1 input[type=submit]:hover,
+#container2 input[type=submit]:hover,
+#container3 input[type=submit]:hover,
+#container4 input[type=submit]:hover,
+#container5 input[type=submit]:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
+	background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+	background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
+}
+
+#container input[type=submit]:active,
+#container1 input[type=submit]:active,
+#container2 input[type=submit]:active,
+#container3 input[type=submit]:active,
+#container4 input[type=submit]:active,
+#container5 input[type=submit]:active {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6ec2e8), to(#b6e2ff));
+	background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+	background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
+}
+
+#user-delete-failed
+{
+	position: absolute;
+	margin-top: -38px;
+	margin-left: 565px;
+	text-transform: uppercase;
+	color: #971616;
+	font-size: 13px;
+}
+
+.delimiter
+{
+	width: 100%;
+	border-top: 1px solid #b1b1b1;
+	height: 10px;
+}
+
+.delimiter2
+{
+	width: 100%;
+	border-top: 1px solid #b1b1b1;
+	height: 10px;
+	margin: 25px 0px 20px;
+}
+
+.checkbox-css
+{
+	width: 20px!important;
+    margin-left: 15px;
+    float: left;
+    margin-top: 20px;
+}
+
+.categories-checkbox
+{
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 1px;
+	margin-left: 8px;
+	color: #555;
+}
